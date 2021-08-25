@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: |
+      sbt compile
+    command: |
+      sbt run
+
+vscode:
+  extensions:
+    - scalameta.metals
